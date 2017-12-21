@@ -326,7 +326,8 @@ body {
     opacity: 0.5; }
 
 #head_img {
-  margin-bottom: 10px; }
+  margin-bottom: 10px;
+  width: 100%; }
   @media (min-width: 550px) {
     #head_img .head_img_sp {
       display: none; } }
@@ -424,7 +425,7 @@ body {
       padding: 30px 60px; } }
   @media (max-width: 549px) {
     #product {
-      padding: 40px 0px; } }
+      padding: 40px 10px; } }
   #product .name_bar {
     display: flex;
     justify-content: space-between;

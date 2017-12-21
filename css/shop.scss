@@ -563,6 +563,7 @@ body{
 
 #head_img{
   margin-bottom: 10px;
+  width: 100%;
 
   @media(min-width: 550px){
     .head_img_sp{
@@ -719,7 +720,7 @@ body{
   }
   
   @media(max-width: 549px){
-    padding: 40px 0px;
+    padding: 40px 10px;
   }
   
   .name_bar{

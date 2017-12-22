@@ -720,9 +720,10 @@ body{
   }
   
   @media(max-width: 549px){
-    padding: 40px 10px;
+    padding: 20px 10px;
   }
   
+  @media(min-width: 550px){
   .name_bar{
     display: flex;
     justify-content: space-between;
@@ -738,9 +739,29 @@ body{
     p{
       color: $gray;
       font-weight: bold;
+      }
     }
   }
   
+  @media(max-width: 549px){
+  .name_bar{
+
+    border-bottom: 2px solid $gray;
+    margin-bottom: 20px;
+    
+    .name{
+      font-weight: bold;
+      letter-spacing: 2px;
+      font-size: 1.2em;
+    }
+    
+    p{
+      color: $gray;
+      font-weight: bold;
+      margin-bottom: 10px;
+      }
+    }
+  }
   
   @media(min-width: 550px){
     .product_img{

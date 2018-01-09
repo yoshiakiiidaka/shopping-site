@@ -23,7 +23,7 @@ $red : #9d1a2d;
 
 
 body{
-  background: $beige;
+  background: #FAF7F7;
   @include fontsize(12);
 } 
 
@@ -1026,4 +1026,5 @@ body{
       padding: 8px 0px 8px 10px;
     }
   }
+  
 }
